@@ -61,7 +61,7 @@ When you're configuring this scenario, the "host" that you need to configure to 
 
 In this example, the host name for the Office 365 host should be **hubstream-mx.mail.protection.outlook.com**. This value can vary from domain to domain, so check your value at **Configuration** \> **Domain** \> \<select domain\> to confirm your actual value.
 
-Since the anti-spam service is external, you need to create a mail flow rule (also known as a transport rule) in the Exchange admin center (EAC) at **Exchange admin** \> **Mail flow** \> **Rules** to prevent a double anti-spam check, which would result in the followin rejection of the messages:
+Since the anti-spam service is external, you need to create a mail flow rule (also known as a transport rule) in the Exchange admin center (EAC) at **Exchange admin** \> **Mail flow** \> **Rules** to prevent a double anti-spam check, which would result in the following rejection of the messages:
 
 ![Mail flow rule to prevent double-scanning](../media/TransportRuleFor3rdParty.png)
 
